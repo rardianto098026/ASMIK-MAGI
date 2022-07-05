@@ -1,0 +1,276 @@
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\csc.exe
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\vbc.exe
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe.config
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll.config
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.pdb
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Web.Infrastructure.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Owin.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\WebGrease.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.pdb
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.csprojResolveAssemblyReference.cache
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.dll
+C:\Project\CODING\MAGI_\ASMIK\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.pdb
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\csc.exe
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\vbc.exe
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll.config
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.pdb
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Owin.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\WebGrease.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.pdb
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.csprojResolveAssemblyReference.cache
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.dll
+C:\Users\Rizky Ardianto\Desktop\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.pdb
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\csc.exe
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Collections.Immutable.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\vbc.exe
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe.config
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll.config
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.pdb
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Web.Infrastructure.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Owin.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\WebGrease.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.pdb
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.csprojResolveAssemblyReference.cache
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.dll
+D:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.pdb
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\csc.exe
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Collections.Immutable.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\vbc.exe
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\roslyn\VBCSCompiler.exe.config
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll.config
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\ASMIK_MAGI.pdb
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Web.Infrastructure.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Owin.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\WebGrease.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Helpers.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Mvc.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Optimization.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.Razor.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Deployment.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\System.Web.WebPages.Razor.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Antlr3.Runtime.pdb
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Newtonsoft.Json.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\EntityFramework.SqlServer.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Google.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.csprojResolveAssemblyReference.cache
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.dll
+E:\Freelance\Office\Toro\ALL PROJECT\ASMIK_MAGI\ASMIK_MAGI\obj\Debug\ASMIK_MAGI.pdb

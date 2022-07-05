@@ -1,0 +1,698 @@
+﻿@model ASMIK_MAGI.Models.PagedList<ASMIK_MAGI.Models.ASMIKModels>
+
+<link href="~/assets/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+<link href="~/assets/css/select2.min.css" rel="stylesheet" />
+@using (Html.BeginForm("Add_ASMIK", "Home", FormMethod.Post))
+{
+    <div class="main-content-inner">
+        <div class="breadcrumbs ace-save-state" id="breadcrumbs">
+            <ul class="breadcrumb">
+                <li>
+                    <i class="ace-icon fa fa-home home-icon"></i>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">ASMIK</a>
+                </li>
+                <li class="active">Add NB</li>
+            </ul><!-- /.breadcrumb -->
+            @*<div class="nav-search" id="nav-search">
+                    <form class="form-search">
+                        <span class="input-icon">
+                            <input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+                            <i class="ace-icon fa fa-search nav-search-icon"></i>
+                        </span>
+                    </form>
+                </div>*@<!-- /.nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="ace-settings-container" id="ace-settings-container">
+                <div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+                    <i class="ace-icon fa fa-cog bigger-130"></i>
+                </div>
+
+                <div class="ace-settings-box clearfix" id="ace-settings-box">
+                    <div class="pull-left width-50">
+                        <div class="ace-settings-item">
+                            <div class="pull-left">
+                                <select id="skin-colorpicker" class="hide">
+                                    <option data-skin="no-skin" value="#438EB9">#438EB9</option>
+                                    <option data-skin="skin-1" value="#222A2D">#222A2D</option>
+                                    <option data-skin="skin-2" value="#C6487E">#C6487E</option>
+                                    <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+                                </select><div class="dropdown dropdown-colorpicker"><a data-toggle="dropdown" class="dropdown-toggle"><span class="btn-colorpicker" style="background-color:#438EB9"></span></a><ul class="dropdown-menu dropdown-caret"><li><a class="colorpick-btn selected" style="background-color:#438EB9;" data-color="#438EB9"></a></li><li><a class="colorpick-btn" style="background-color:#222A2D;" data-color="#222A2D"></a></li><li><a class="colorpick-btn" style="background-color:#C6487E;" data-color="#C6487E"></a></li><li><a class="colorpick-btn" style="background-color:#D0D0D0;" data-color="#D0D0D0"></a></li></ul></div>
+                            </div>
+                            <span>&nbsp; Choose Skin</span>
+                        </div>
+
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-navbar" autocomplete="off">
+                            <label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+                        </div>
+
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-sidebar" autocomplete="off">
+                            <label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+                        </div>
+
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-breadcrumbs" autocomplete="off">
+                            <label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+                        </div>
+
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" autocomplete="off">
+                            <label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+                        </div>
+
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-add-container" autocomplete="off">
+                            <label class="lbl" for="ace-settings-add-container">
+                                Inside
+                                <b>.container</b>
+                            </label>
+                        </div>
+                    </div><!-- /.pull-left -->
+
+                    <div class="pull-left width-50">
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" autocomplete="off">
+                            <label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+                        </div>
+
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" autocomplete="off">
+                            <label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+                        </div>
+
+                        <div class="ace-settings-item">
+                            <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" autocomplete="off">
+                            <label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+                        </div>
+                    </div><!-- /.pull-left -->
+                </div><!-- /.ace-settings-box -->
+            </div><!-- /.ace-settings-container -->
+
+            <div class="page-header">
+                <h1>
+                    ASMIK
+                    <small>
+                        <i class="ace-icon fa fa-angle-double-right"></i>
+                        Add NB
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form class="form-horizontal">
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"><u><b> Info Staff </b></u></label>
+
+                                    @*@Html.HiddenFor(modelItem => Model.IDX_ASMIK_DETAIL)
+                                        @Html.HiddenFor(modelItem => Model.IDX_ASMIK)*@
+                                </div><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Kode MO BMRI <font color="red">*</font> </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Kode_MO_BMRI, new { @class = "col-xs-10 col-sm-5", id = "Kode_MO_BMRI" })
+                                        @Html.ValidationMessageFor(model => model.Kode_MO_BMRI, "", new { @class = "text-danger", style = "Margin-left:10px" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Kode Cabang BMRI <font color="red">*</font> </label>
+                                    <div class="col-sm-9">
+                                        @*@Html.TextBoxFor(model => model.Kode_Cabang_BMRI, new { @class = "col-xs-10 col-sm-5", id = "Kode_Cabang_BMRI" })*@
+                                        @Html.DropDownListFor(model => model.Kode_Cabang_BMRI, Model.Kode_Cabang_BMRI_DDL, new { id = "Kode_Cabang_BMRI", @class = "col-xs-10 col-sm-5" })
+                                        @Html.ValidationMessageFor(model => model.Kode_Cabang_BMRI, "", new { @class = "text-danger", style = "Margin-left:10px" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Nama Cabang BMRI </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Nama_Cabang_BMRI, new { @class = "col-xs-10 col-sm-5", id = "Nama_Cabang_BMRI", @readonly = "readonly", style = "width:500px;" })
+                                        @Html.HiddenFor(model => model.Nama_Cabang_BMRI, new { id = "Nama_Cabang_BMRI" })
+                                        @Html.ValidationMessageFor(model => model.Nama_Cabang_BMRI, "", new { @class = "text-danger", style = "Margin-left:10px" })
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"><u><b> Product Info </b></u></label>
+
+                                </div><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Product ASMIK </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Product_ASMIK, new { @class = "col-xs-10 col-sm-5", id = "Product_ASMIK", @readonly = "readonly" })
+                                        @Html.ValidationMessageFor(model => model.Product_ASMIK, "", new { @class = "text-danger", style = "Margin-left:10px" })
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"><u><b> Info Nasabah (Payor) </b></u></label>
+
+                                </div><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Nama Lengkap <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Nama_Lengkap_Nasabah, new { @class = "col-xs-10 col-sm-5", id = "Nama_Lengkap_Nasabah" })
+                                        @Html.ValidationMessageFor(model => model.Nama_Lengkap_Nasabah, "", new { @class = "text-danger", style = "Margin-left:10px" })
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> No Rekening <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.No_Rekening_Nasabah, new { @class = "col-xs-10 col-sm-5", id = "No_Rekening_Nasabah" })
+                                        @Html.ValidationMessageFor(model => model.No_Rekening_Nasabah, "", new { @class = "text-danger", style = "Margin-left:10px" })
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> No. KTP <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.No_KTP_Nasabah, new { @class = "col-xs-10 col-sm-5", id = "No_KTP_Nasabah", maxlength = 16 })
+                                        @Html.ValidationMessageFor(model => model.No_KTP_Nasabah, "", new { @class = "text-danger", style = "Margin-left:10px" })
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"><u><b> Info Tertanggung </b></u></label>
+
+                                </div><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Nama Lengkap Tertanggung <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Nama_Lengkap_Tertanggung_1, new { @class = "col-xs-10 col-sm-5", id = "Nama_Lengkap_Tertanggung_1" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Alamat <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Alamat_1, new { @class = "col-xs-10 col-sm-5", id = "Alamat_1" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Kode Pos </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Kode_Pos_1, new { @class = "col-xs-10 col-sm-5", id = "Kode_Pos_1", @onkeypress = "return validate(event)", maxlength = 5, @readonly = "readonly" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Tempat Lahir <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Tempat_Lahir_1, new { @class = "col-xs-10 col-sm-5", id = "Tempat_Lahir_1" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Tanggal Lahir <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @*@Html.TextBoxFor(model => model.Tanggal_Lahir_1, new { @class = "col-xs-10 col-sm-5", id = "Tanggal_Lahir_1" })*@
+                                        @Html.TextBoxFor(model => model.Tanggal_Lahir_1, "{0:d MMM yyyy}", new { @class = "col-xs-10 col-sm-5", @placeholder = "0:d MMM yyyy", id = "Tanggal_Lahir_1", autocomplete = "off", onchange = "GetValidate(this)" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Jenis Kelamin <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @*@Html.DropDownListFor(model => model.Jenis_Kelamin_1, Model.Jenis_Kelamin_1_ddl, new { id = "Jenis_Kelamin_1", @class = "col-xs-10 col-sm-5" })*@
+                                        <label>@Html.RadioButtonFor(model => model.Jenis_Kelamin_1, "Pria", new { id = "ChkPria" }) Pria </label>
+                                        <label>@Html.RadioButtonFor(model => model.Jenis_Kelamin_1, "Wanita", new { id = "ChkWanita" }) Wanita </label>
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> No. KTP </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.No_KTP_1, new { @class = "col-xs-10 col-sm-5", id = "No_KTP_1", @onkeypress = "return validate(event)", maxlength = 16 })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> No. HP <font color="red">*</font></label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.No_HP_1, new { @class = "col-xs-10 col-sm-5", id = "No_HP_1" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Email </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Email_1, new { @class = "col-xs-10 col-sm-5", id = "Email_1" })
+                                        @Html.ValidationMessageFor(model => model.Email_1, "", new { @class = "text-danger", style = "Margin-left:10px" })
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> NPWP </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.NPWP_1, new { @class = "col-xs-10 col-sm-5", id = "NPWP_1", @readonly = "readonly" })
+                                        @Html.HiddenFor(model => model.NPWP_1)
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Pekerjaan </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Pekerjaan_1, new { @class = "col-xs-10 col-sm-5", id = "Pekerjaan_1", @readonly = "readonly" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Penghasilan Perbulan </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Penghasilan_Perbulan_1, new { @class = "col-xs-10 col-sm-5", id = "Penghasilan_Perbulan_1", @onkeypress = "return validate(event)", onkeyup = "javascript:this.value=Comma(this.value);", autocomplete = "off", @readonly = "readonly" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Sumber penghasilan </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Sumber_penghasilan_1, new { @class = "col-xs-10 col-sm-5", id = "Sumber_penghasilan_1", @readonly = "readonly" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div style="margin-left:15px">
+                                    <button class="btn btn-sm btn-success" type="submit" name="submit" id="Submit" value="Add" style="margin-left:100px; height:40px; width:100px">
+                                        Add
+                                    </button>
+                                </div><br />
+                                <div class="col-xs-12">
+                                    @Html.Raw(TempData["messageRequest"])
+                                    @Html.Raw(TempData["SuccessRequest"])
+                                    @Html.Raw(TempData["ErrorRequest"])
+                                    <b><font color="Red">@Html.Raw(TempData["CountData"])</font></b>
+                                </div><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"><u><b> Daftar Tertanggung </b></u></label>
+
+                                </div><br />
+                                <div class="form-group">
+                                    <table id="dtHorizontalExample" class="table table-striped table-bordered table-sm" style="font-size:8.5px;" cellspacing="0" width="100%">
+                                        @*<table id="tblNK" width="100%" style="width: 100%;font-size:8.5px;overflow-x:scroll;" role="grid" aria-describedby="dataTables-example_info" class="table table-striped table-bordered table-hover dataTable no-footer dtr-inline">*@
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Nama Lengkap
+                                                </th>
+                                                <th>
+                                                    Alamat
+                                                </th>
+                                                <th>
+                                                    Kode Pos
+                                                </th>
+                                                <th>
+                                                    Tempat Lahir
+                                                </th>
+                                                <th>
+                                                    Tanggal Lahir
+                                                </th>
+                                                <th>
+                                                    Jenis Kelamin
+                                                </th>
+                                                <th>
+                                                    No KTP
+                                                </th>
+                                                <th>
+                                                    No HP
+                                                </th>
+                                                <th>
+                                                    Email
+                                                </th>
+                                                <th>
+                                                    NPWP
+                                                </th>
+                                                <th>
+                                                    Pekerjaan
+                                                </th>
+                                                <th>
+                                                    Penghasilan Per Bulan
+                                                </th>
+                                                <th>
+                                                    Sumber Penghasilan
+                                                </th>
+                                                <th>
+
+                                                </th>
+                                                <th>
+
+                                                </th>
+                                                <th>
+
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @for (int i = 0; i < Model.Content.Count; i++)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Nama_Lengkap_Tertanggung_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Alamat_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Kode_Pos_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Tempat_Lahir_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Tanggal_Lahir_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Jenis_Kelamin_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].No_KTP_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].No_HP_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Email_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].NPWP_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Pekerjaan_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Penghasilan_Perbulan_List)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => Model.Content[i].Sumber_penghasilan_List)
+                                                        @Html.HiddenFor(modelItem => Model.Content[i].IDX_ASMIK_DETAIL)
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" onclick="MyFunction(@Model.Content[i].IDX_ASMIK_DETAIL)">Edit</a>
+                                                        @*<a class="green"  href="#" onclick="MyFunction(Model.Content[i].IDX_ASMIK_DETAIL);">Edit</a>*@
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" onclick="MyFunction(@Model.Content[i].IDX_ASMIK_DETAIL)">Copy</a>
+                                                        @*<a class="black" href="#">
+                                                                @Html.ActionLink("Copy", "Copy", new { idxDetail = Model.Content[i].IDX_ASMIK_DETAIL }, new { @onclick = "return confirm('Are you sure you want to delete this record?');" })
+                                                            </a>*@
+                                                    </td>
+                                                    <td>
+                                                        <a class="w3-text-red" href="#">
+                                                            @Html.ActionLink("Delete", "Delete", new { idxDetail = Model.Content[i].IDX_ASMIK_DETAIL, Menu = "Add" }, new { @onclick = "return confirm('Are you sure you want to delete this record?');" })
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"><u><b> Info Ahli Waris </b></u></label>
+
+                                </div><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Nama Lengkap </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Nama_Lengkap_AHLI_WARIS, new { @class = "col-xs-10 col-sm-5", id = "Nama_Lengkap_AHLI_WARIS", @readonly = "readonly" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Alamat </label>
+                                    <div class="col-sm-9">
+                                        @Html.TextBoxFor(model => model.Alamat_AHLI_WARIS, new { @class = "col-xs-10 col-sm-5", id = "Alamat_AHLI_WARIS", @readonly = "readonly" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1" style="width: 200px;"> Hub dengan Nasabah </label>
+                                    <div class="col-sm-9">
+                                        @Html.DropDownListFor(model => model.HUB_DGN_NASABAH, Model.HUB_DGN_NASABAH_DDL, new { id = "HUB_DGN_NASABAH", @class = "col-xs-10 col-sm-5", @readonly = "readonly", disabled = "disabled" })
+                                        @Html.HiddenFor(model => model.HUB_DGN_NASABAH, new { id = "HUB_DGN_NASABAH" })
+
+                                    </div>
+                                </div><br /><br />
+                                <div style="margin-left:15px">
+                                    <button class="btn btn-sm btn-success" type="submit" name="submit" id="btn_Draft" value="Draft" style="margin-left:100px; height:40px; width:100px">
+                                        Save Draft
+                                    </button>
+                                    <button class="btn btn-sm btn-success" type="submit" name="submit" id="Submit" value="Submits" disabled="disabled" style="margin-left:10px; height:40px; width:100px">
+                                        Submit
+                                    </button>
+                                    @*<button class="btn btn-sm btn-success" type="submit" name="submit" id="Submit" value="Download" disabled="disabled" formtarget="_blank" style="margin-left:10px; height:40px; width:100px">
+                                        Download
+                                    </button>*@
+                                    <button class="btn btn-sm btn-success" type="submit" name="submit" id="Submit" value="Excel" formtarget="_blank" disabled="disabled" style="margin-left:10px; height:40px; width:150px">
+                                        Excel
+                                    </button>
+                                    <button class="btn btn-sm btn-success" type="submit" name="submit" id="Submit" value="Back" style="margin-left:10px; height:40px; width:100px">
+                                        Back
+                                    </button>
+                                </div><br />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@*<script src="~/assets/js/jquery-2.1.4.min.js"></script>
+    <script src="~/assets/js/Jquery.min.js"></script>*@
+<script src="~/assets/js/bootstrap-datepicker.min.js"></script>
+<script src="~/assets/js/select2.min.js"></script>
+
+
+<script type="text/javascript">
+    $(function () {
+        $("#Tanggal_Lahir_1").datepicker({
+            autoclose: true,
+            format: 'dd/mm/yyyy',
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '-100:+100'
+        }).val();
+    });
+</script>
+<script type="text/javascript">
+    function MyFunction(idx) {
+        $.ajax({
+            type: "POST",
+            url: "AjaxGetDetailData",
+            dataType: "json",
+            data: { id: idx },
+            success: function (response) {
+                if (response != null) {
+                    $('#Nama_Lengkap_Tertanggung_1').val(response.Nama_Lengkap_Tertanggung_List);
+                    $('#Alamat_1').val(response.Alamat_List);
+                    $('#Tempat_Lahir_1').val(response.Tempat_Lahir_List);
+                    $('#Tanggal_Lahir_1').val(response.Tanggal_Lahir_List);
+                    $('#Jenis_Kelamin_1').val(response.Jenis_Kelamin_List);
+                    $('#Kode_Pos_1').val(response.Kode_Pos_List);
+                    $('#No_KTP_1').val(response.No_KTP_List);
+                    $('#No_HP_1').val(response.No_HP_List);
+                    $('#Email_1').val(response.Email_List);
+                    $('#NPWP_1').val(response.NPWP_List);
+                    $('#Pekerjaan_1').val(response.Pekerjaan_List);
+                    $('#Penghasilan_Perbulan_1').val(response.Penghasilan_Perbulan_List);
+                    $('#Sumber_penghasilan_1').val(response.Sumber_penghasilan_List);
+                    $('#IDX_ASMIK_DETAIL').val(response.IDX_ASMIK_DETAIL);
+
+                    $('#Kode_MO_BMRI').val(response.Kode_MO_BMRI);
+                    $('#Kode_Cabang_BMRI').val(response.Kode_Cabang_BMRI).select2();
+                    $('#Nama_Cabang_BMRI').val(response.Nama_Cabang_BMRI);
+                    $('#Product_ASMIK').val(response.Product_ASMIK);
+                    $('#Nama_Lengkap_Nasabah').val(response.Nama_Lengkap_Nasabah);
+                    $('#No_Rekening_Nasabah').val(response.No_Rekening_Nasabah);
+                    $('#IDX_HEADER').val(response.IDX_HEADER);
+                } else {
+                    alert("Something went wrong");
+                }
+            },
+            failure: function (response) {
+                alert(response.responseText);
+            },
+            error: function (response) {
+                alert(response.responseText);
+            }
+        });
+    }
+</script>
+<script>
+    $("#Kode_Cabang_BMRI").change(function () {
+        $.ajax({
+            type: 'POST',
+            url: 'getMST_MAPPING_BMRI',
+            dataType: 'json',
+            data: { Kode: $("#Kode_Cabang_BMRI").val()},
+
+            success: function (user) {
+                $("#Nama_Cabang_BMRI").val(user.Nama_Cabang_BMRI)
+                //document.getElementById("Nama_Cabang_BMRI").value =user.Nama_Cabang_BMRI;
+            },
+            error: function (ex) {
+                alert('Failed to retrieve states.' + ex);
+            }
+        });
+        return false;
+    });
+
+    $("#KTP_NO_SEARCHING").change(function () {
+        $.ajax({
+            type: 'POST',
+            url: 'AjaxGetDetailData_By_KTP',
+            dataType: 'json',
+            data: { id: $("#KTP_NO_SEARCHING").val() },
+            success: function (response) {
+                if (response != null) {
+                    $('#Kode_MO_BMRI').val(response.Kode_MO_BMRI);
+                    $('#Kode_Cabang_BMRI').val(response.Kode_Cabang_BMRI).select2();
+                    $('#Nama_Cabang_BMRI').val(response.Nama_Cabang_BMRI);
+                    $('#Product_ASMIK').val(response.Product_ASMIK);
+                    $('#Nama_Lengkap_Nasabah').val(response.Nama_Lengkap_Nasabah);
+                    $('#No_Rekening_Nasabah').val(response.No_Rekening_Nasabah);
+                    $('#No_KTP_Nasabah').val(response.No_KTP_Nasabah);
+                    $('#IDX_HEADER').val(response.IDX_HEADER);
+
+                } else {
+                    alert("Something went wrong");
+                }
+            },
+            failure: function (response) {
+                alert(response.responseText);
+            },
+            error: function (response) {
+                alert(response.responseText);
+            }
+        });
+
+
+        return false;
+    });
+</script>
+<script type='text/javascript'>
+    $(document).ready(function () {
+        $("#Kode_Cabang_BMRI").select2();
+        });
+
+</script>
+<script type="text/javascript">
+       function validate(key) {
+           var keycode = (key.which) ? key.which : key.keyCode;
+           //comparing pressed keycodes
+           if (!(keycode == 8 || keycode == 46) && (keycode < 48 || keycode > 57)) {
+               return false;
+           }
+       }
+
+       function Comma(Num) { //function to add commas to textboxes
+           Num += '';
+           Num = Num.replace(',', ''); Num = Num.replace(',', ''); Num = Num.replace(',', '');
+           Num = Num.replace(',', ''); Num = Num.replace(',', ''); Num = Num.replace(',', '');
+           x = Num.split('.');
+           x1 = x[0];
+           x2 = x.length > 1 ? '.' + x[1] : '';
+           var rgx = /(\d+)(\d{3})/;
+           while (rgx.test(x1))
+               x1 = x1.replace(rgx, '$1' + ',' + '$2');
+           return x1 + x2;
+       }
+</script>
+
+<script type="text/javascript">
+    function GetValidate(key) {
+        debugger;
+        var dates = key;
+        var Pars = dates.value.split('/');
+        var DatePickers = new Date(Pars[2], Pars[1] - 1, Pars[0]);
+
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+        var tahun = parseInt(Pars[2]) - parseInt(yyyy);
+
+        var diff = parseInt(yyyy) - parseInt(Pars[2]);
+        if (Pars[1] > mm) diff--;
+        else {
+            if (Pars[1] == mm) {
+                if (Pars[0] > dd) diff--;
+            }
+        }
+
+        if(diff==75)
+        {
+            var days = 5;
+            today.setDate(today.getDate() + days);
+
+            var ddxx = String(today.getDate()).padStart(2, '0');
+            var mmxx = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+            var yyyyxx = today.getFullYear();
+
+            var diffxx = parseInt(yyyyxx) - parseInt(Pars[2]);
+            if (Pars[1] > mmxx) diffxx--;
+            else {
+                if (Pars[1] == mmxx) {
+                    if (Pars[0] <= ddxx) {
+                        alert('Umur tertanggung > 75 tahun dalam 5 hari kedepan');
+                        document.getElementById("Submit").disabled = true;
+                    }
+                    else
+                    {
+                        document.getElementById("Submit").disabled = false;
+                    }
+                }
+            }
+        }
+        else if(diff>75){
+            alert('Umur tertanggung > 75 tahun');
+            document.getElementById("Submit").disabled = true;
+        }
+        else {
+            document.getElementById("Submit").disabled = false;
+        }
+    }
+    function formatWithZero(val) {
+
+        var value = val.toString();
+        if (value.length > 1)
+            return value;
+
+        var str = "00" + value;
+        return str.slice(str.length - 2, str.length);;
+    }
+
+</script>
+@*<script type = "text/javascript">
+       $(function() {
+       $("#btnGet").click(function() {
+           $.ajax({
+               type: "POST",
+               url: "/JQueryAjaxCall/AjaxGetCall",
+               contentType: "application/json; charset=utf-8",
+               dataType: "json",
+               success: function(response) {
+                   if (response != null) {
+                       $('#EmployeeName').val(response.Name);
+                       $('#EmployeeDesignation').val(response.Designation);
+                       $('#EmployeeLocation').val(response.Location);
+                   } else {
+                       alert("Something went wrong");
+                   }
+               },
+               failure: function(response) {
+                   alert(response.responseText);
+               },
+               error: function(response) {
+                   alert(response.responseText);
+               }
+           });
+       });
+       });
+    </script>*@
